@@ -13,8 +13,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ril/cbd:root/sbin/cbd \
-    $(LOCAL_PATH)/apns/apns-conf.xml:system/etc/apns-conf.xml
+    $(LOCAL_PATH)/ril/cbd:root/sbin/cbd
 
 # Override
 PRODUCT_COPY_FILES += \
