@@ -29,5 +29,5 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 14200340480
 TARGET_KERNEL_SOURCE := kernel/samsung/p4
 TARGET_KERNEL_CONFIG := cyanogenmod_samsung_p4_usa_tmo-jb_defconfig
 # Keep this as a fallback
-TARGET_PREBUILT_KERNEL := device/samsung/p4tmo/kernel
+# TARGET_PREBUILT_KERNEL := device/samsung/p4tmo/kernel
 

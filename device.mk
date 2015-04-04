@@ -1,8 +1,8 @@
 # Inherit device configuration for p4tmo.
-$(call inherit-product, device/samsung/p4tmo/p4tmo.mk)
+# $(call inherit-product, device/samsung/p4tmo/p4tmo.mk)
 
 # Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit GSM common stuff
 $(call inherit-product, vendor/cm/config/gsm.mk)
@@ -10,7 +10,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_p4tmo
+PRODUCT_NAME := p4tmo
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := p4tmo
 PRODUCT_MODEL := SGH-T859
