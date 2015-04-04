@@ -5,7 +5,7 @@
 # $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit GSM common stuff
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/decatf/config/telephony.mk)
 
 #
 # Setup device specific product configuration.
