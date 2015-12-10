@@ -14,8 +14,8 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-$(call inherit-product, device/samsung/p4tmo/device.mk)
 $(call inherit-product, device/samsung/p4-common/p4-common.mk)
+$(call inherit-product, device/samsung/p4tmo/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/p4tmo/p4tmo-vendor.mk)
 
 $(call inherit-product, build/target/product/telephony.mk)
