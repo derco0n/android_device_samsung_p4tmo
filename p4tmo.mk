@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-$(call inherit-product, build/target/product/telephony.mk)
+$(call inherit-product-if-exists, build/target/product/telephony.mk)
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
