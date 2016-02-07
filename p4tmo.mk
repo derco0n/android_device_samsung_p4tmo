@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ril/cbd:root/sbin/cbd
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/ril/cbd:root/sbin/cbd
 
 # Override
 PRODUCT_COPY_FILES += \
