@@ -34,4 +34,5 @@ TARGET_KERNEL_CONFIG := cyanogenmod_samsung_p4_usa_tmo-jb_defconfig
 
 # RIL
 BOARD_RIL_CLASS := ../../../device/samsung/p4/ril/
+BOARD_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
 TARGET_IGNORE_RO_BOOT_REVISION := true
